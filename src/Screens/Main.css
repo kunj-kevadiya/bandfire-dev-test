@@ -1,0 +1,165 @@
+.background{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    resize: both;
+    overflow: auto;
+
+}
+
+.background img{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    resize: both;
+}
+
+.navigation-header{
+    position: absolute;
+    left: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 15%;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    padding: 0;
+    resize: both;
+}
+
+
+.navigation-header p{
+    font-size: 9pt;
+    font-weight: bold;
+    color: rgba(143, 24, 27, 255);
+    text-align: right;
+    margin-left: 300px;
+    margin-top: 1.5px;
+    font-family: ZapfDingbatsITC, ﻿Gotham-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;;
+}
+
+.navigation-header img{
+    resize: both;
+    margin-bottom: 15px;
+    width: 10%;
+    margin-right: 13%;
+}
+.navigation-header p:hover{
+    cursor: pointer;
+    
+    
+}
+
+.Components{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 95px;
+    margin-left: 45%;
+    height: 745px;
+    width: 459px;
+    position: absolute;
+    padding: 10 10 10 10 ;
+    resize: both;
+
+}
+
+.body{
+    position: absolute;
+    height: auto;
+    width: 200%;
+    resize: both;
+    margin-left: 1%;
+
+}
+
+.body img{
+    height: auto;
+    width: 500px;
+    resize: both;
+
+}
+
+.body area:hover{
+  cursor: pointer;
+}
+
+.right-component{
+    
+    height: 500px;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 20%;   
+
+    border-bottom: 0;
+   
+}
+
+.right-component img{    
+    position: absolute;
+    /* margin-left: 20%; */
+    width: 420px;
+    height: 600px;
+    left: 100px;
+}
+
+.right-component ol{
+    position: absolute;
+    width: 100%;
+    top:80px;
+    left: 30px;
+    align-items: left;
+    margin-left: 8%;
+    font-size: 1.2vw;
+    
+  
+   color: #ffffff
+}
+.right-component p{
+    position: absolute;
+    width: 100%;
+    top: 40px; 
+    left: 30px;
+    margin-left: 18%;
+   
+   font-size: 2vw;
+   color: #ffffff
+}
+
+ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+  }
+  ol li {
+    counter-increment: my-awesome-counter;
+  }
+  ol li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: #ffcb08;
+    font-weight: bold;
+  }
+
+  .right-component form{
+    position: absolute;
+    width: 100%;
+    top: 250px; 
+    left: 30px;
+    margin-left: 18%;
+   
+   
+   color: #ffffff
+}
+ 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
